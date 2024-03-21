@@ -131,7 +131,7 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs">
+                <CardContent className="mt-2 whitespace-pre text-xs">
                   {work.description}
                 </CardContent>
               </Card>
@@ -153,7 +153,9 @@ export default function Page() {
                     </div>
                   </div>
                 </CardHeader>
-                <CardContent className="mt-2">{education.degree}</CardContent>
+                <CardContent className="mt-2 whitespace-pre">
+                  {education.description}
+                </CardContent>
               </Card>
             );
           })}
