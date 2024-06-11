@@ -6,7 +6,10 @@ export const RESUME_DATA = {
   location: "Casablanca, Morocco",
   locationLink: "https://www.google.com/maps/place/Casablanca",
   about: "Frontend Engineer",
-  summary: "Frontend Engineer",
+  summary: `
+I'm Imad Atyat-Allah, A Front-end React developer passionate about creating beautiful, user-friendly web applications.
+  
+My fascination with the world of web development began in high school, where I discovered a passion for creating fast and innovative web applications. Since then, I have dedicated myself to continually enhancing my skills and expertise in the field of web development.`,
   avatarUrl: "https://avatars.githubusercontent.com/u/70093484?v=4",
   personalWebsiteUrl: "https://imadatyat.me",
   contact: {
@@ -33,22 +36,15 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Self-taught",
-      description: `All my stuff can be found at:
-      \nGithub: https://github.com/imadatyatalah\nPortfolio: https://imadatyat.me`,
+      description: `
+- Github: https://github.com/imadatyatalah
+- Portfolio: https://imadatyat.me
+`,
       start: "2020",
       end: "Present",
     },
   ],
   work: [
-    {
-      company: "Portfolly",
-      link: "https://portfolly.io",
-      badges: ["Remote"],
-      title: "Co-Founder",
-      start: "Sep 2022",
-      end: "Present",
-      description: `- Setup multi-tenancy\n- Took care of all API stuff using Prisma and Planetscale`,
-    },
     {
       company: "Obytes",
       link: "https://obytes.com",
@@ -56,17 +52,61 @@ export const RESUME_DATA = {
       title: "Frontend Developer",
       start: "Apr 2022",
       end: "Present",
-      description: `- Lineup project
-      \n• Led the front-end team, making sure we built a great-looking and smooth-working web app.\n• Handled the setup of Stripe payments and Stripe Connect, so customers could easily and safely pay online.\n• Figured out how to add tricky new stuff to the site and made sure it all worked well.\n• Checked out my teammates' code on GitHub to help catch any issues and make sure everything was on track.`,
+      description: `
+- **Nawalic project**
+
+     • Built Nawalic's landing page based on designs from Figma provided by our designer.
+    
+     • Connected the newsletter signup form to the backend.
+
+- **Lineup project**
+    
+     • Managed the front-end team for Lineup project, ensuring a visually appealing and user-friendly web application.
+
+     • Configured Stripe payments and Stripe Connect, enabling secure and hassle-free online transactions for customers.
+
+     • Implemented complex features seamlessly into the site like authentication using OTP, User onboarding, and dashboards... ensuring smooth functionality.
+
+     • Reviewed teammates' code on GitHub, identifying and resolving issues to keep the project on course.
+  
+- **Daratma project**
+    
+     • Built Daratma's new landing page based on designs from Figma provided by our designer.
+
+     • Implemented Hygraph CMS Integration.
+
+     • Connected the newsletter signup form to the backend.
+`,
+    },
+    {
+      company: "Portfolly",
+      link: "https://portfolly.io",
+      badges: ["Remote"],
+      title: "Co-Founder",
+      start: "Sep 2022",
+      end: "Apr 2023",
+      description: `
+- Implemented Multi-Tenancy.
+- Handled API Development using Next.js API routes, Prisma ORM, and Planetscale MySQL database.
+- Handled Front-end API Integration using react-query.
+- Integrated GitHub OAuth using next-auth.
+`,
     },
   ],
   skills: [
+    "HTML",
+    "CSS",
     "JavaScript",
     "TypeScript",
-    "React/Next.js",
+    "React",
+    "Next.js",
+    "Tailwind CSS",
     "Node.js",
+    "Rest API",
     "GraphQL",
     "Prisma",
+    "Drizzle",
+    "Zustand",
   ],
   projects: [
     {
