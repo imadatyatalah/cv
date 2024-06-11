@@ -55,27 +55,21 @@ My fascination with the world of web development began in high school, where I d
       description: `
 - **Nawalic project**
 
-     • Built Nawalic's landing page based on designs from Figma provided by our designer.
-    
-     • Connected the newsletter signup form to the backend.
+  - Built Nawalic's landing page based on designs from Figma provided by our designer.
+  - Connected the newsletter signup form to the backend.
 
 - **Lineup project**
-    
-     • Managed the front-end team for Lineup project, ensuring a visually appealing and user-friendly web application.
 
-     • Configured Stripe payments and Stripe Connect, enabling secure and hassle-free online transactions for customers.
+  - Managed the front-end team for Lineup project, ensuring a visually appealing and user-friendly web application.
+  - Configured Stripe payments and Stripe Connect, enabling secure and hassle-free online transactions for customers.
+  - Implemented complex features seamlessly into the site like authentication using OTP, User onboarding, and dashboards... ensuring smooth functionality.
+  - Reviewed teammates' code on GitHub, identifying and resolving issues to keep the project on course.
 
-     • Implemented complex features seamlessly into the site like authentication using OTP, User onboarding, and dashboards... ensuring smooth functionality.
-
-     • Reviewed teammates' code on GitHub, identifying and resolving issues to keep the project on course.
-  
 - **Daratma project**
-    
-     • Built Daratma's new landing page based on designs from Figma provided by our designer.
 
-     • Implemented Hygraph CMS Integration.
-
-     • Connected the newsletter signup form to the backend.
+  - Built Daratma's new landing page based on designs from Figma provided by our designer.
+  - Implemented Hygraph CMS Integration.
+  - Connected the newsletter signup form to the backend.
 `,
     },
     {
@@ -86,10 +80,10 @@ My fascination with the world of web development began in high school, where I d
       start: "Sep 2022",
       end: "Apr 2023",
       description: `
-- Implemented Multi-Tenancy.
-- Handled API Development using Next.js API routes, Prisma ORM, and Planetscale MySQL database.
-- Handled Front-end API Integration using react-query.
-- Integrated GitHub OAuth using next-auth.
+  - Implemented Multi-Tenancy.
+  - Handled API Development using Next.js API routes, Prisma ORM, and Planetscale MySQL database.
+  - Handled Front-end API Integration using react-query.
+  - Integrated GitHub OAuth using next-auth.
 `,
     },
   ],
